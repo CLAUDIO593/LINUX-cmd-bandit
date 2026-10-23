@@ -1,8 +1,9 @@
 ## Bandit Level 0 --> Level 1
-### Objetivo del Nivel
+### 1. Objetivo del Nivel
+
 La contraseña para el siguiente nivel está guardada en un archivo llamado `readme` que se encuentra en el directorio de inicio(`home`). Utiliza esta contraseña para iniciar sesión en `bandit1` mediante SSH. Cada vez que encuentres la contraseña de un nivel, utiliza SSH (en el puerto 2220) para iniciar sesión en ese nivel y continuar el juego.
 
-### Comandos Utilizados
+### 2. Comandos Utilizados
 - `ls` (List)<br>
 
 Lista los archivos y carpetas que se encuentran dentro del directorio actual en el que estás posicionado.
@@ -63,7 +64,7 @@ bandit0@bandit:~$ find readme
 readme
 bandit0@bandit:~$ 
 ```
-### Como se resolvió este nivel
+### 3. Como se resolvió este nivel
 usando el comando cat para que muestre el contenido del archivo readme se obtiene la contrasena para este nivel
 ```bash
 bandit0@bandit:~$ cat readme 
@@ -76,4 +77,9 @@ contribute to the OverTheWire community so we can keep these games free!
 The password you are looking for is: xxxxxxxxxxxxxxxxxxxxx
 
 bandit0@bandit:~$ 
+```
+### 4. Como entrar al level1
+``` bash
+ssh bandit1@bandit.labs.overthewire.org -p 2220
+Pasword: # el que acabamos de encontrar en el paso 3.
 ```

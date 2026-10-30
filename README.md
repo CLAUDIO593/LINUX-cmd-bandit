@@ -8,3 +8,4 @@ En este repositorio se explica para que sirven los comandos de Linux.
 - [Level 2 --> Level 3](Levels/level2-level3.md) = abrir archivos cuyo nombre tiene espacios 
 - [Level 3 --> Level 4](Levels/level3-level4.md) = abrir archivos ocultos.
 - [Level 4 --> Level 5](Levels/level4-level5.md) = abrir archivo que sea legible por humanos
+- [Level 5 --> Level 6](Levels/level5-level6.md) = buscar un archivo en especifico dentro de muchos directorios.
